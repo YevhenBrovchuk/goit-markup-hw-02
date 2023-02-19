@@ -1,3 +1,90 @@
+/* color */
+/* первичний цвет фона #FFFFFF */
+/* вторичній цвет фона #F4F4FD*/
+/* цвет footer #2E2F42 */
+/* Logo, button Акцент-  #4D5AE5*/
+/* menu, h3, h2 nav-#2E2F42 */
+/* adress, p, - #434455*/
 
 
+/* Text */
+/* Logo- ExtraBold */
+/* Roboto */
+
+:root{
+
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #434455;
+}
+.list{
+    list-style: none;
+}
+
+.logo{
+    color:#2E2F42;
+}
+.logoferst{
+    color:#4D5AE5;
+
+}
+/* Site nav */
+.site-nav .link{
+    color:#2E2F42;
+}
+.site-nav .link:hover, 
+.site-nav .link:focus{
+ color: #404BBF;
+}
+
+/* Auth nav */
+.auth-nav .link{
+    color:#434455;
+}
+.auth-nav .link:hover, 
+.auth-nav .link:focus
+{
+    color: #404BBF;
+}
+/* hero */
+.hero-title, .hero-btn{
+    color:#FFFFFF;
+}
+.hero-btn{
+    background-color: #4D5AE5;
+}
+.hero-btn:hover {
+    background-color: #404BBF;
+}
+
+/* section */
+.section-title, .subtitle{
+    color:#2E2F42;
+}
+.team-section {
+    background-color: #F4F4FD;
+}
+.section-btn{
+    background-color: #F4F4FD;
+    color:#4D5AE5;
+}
+.section-btn:hover, 
+.section-btn:focus{
+    background-color: #404BBF;
+        color: #FFFFFF;
+}
+
+
+/* footer */
+.page-footer{
+    background-color: #2E2F42;
+}
+.logo-footer{
+    color:#F4F4FD;
+}
+.text-footer{
+    color:#E7E9FC;
+}
 
