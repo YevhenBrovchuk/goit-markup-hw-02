@@ -12,79 +12,86 @@
 /* Roboto */
 
 :root{
+--body-color:#FFFFFF;
+--main-text-color:#434455;
+--hover-focus-color:#404BBF;
+--ferstlogo-btn-color:#4D5AE5;
+--logo-nav-footer-color:#2E2F42;
+--fonbtn-fonsect-logofooter-color:#F4F4FD;
+--textfooter-color:#E7E9FC;
 
 }
 
 body {
-    background-color: #FFFFFF;
-    color: #434455;
+    background-color: var(--body-color);
+    color: var(--main-text-color);
 }
 .list{
     list-style: none;
 }
 
 .logo{
-    color:#2E2F42;
+    color:var(--logo-nav-footer-color);
 }
 .logoferst{
-    color:#4D5AE5;
+    color:var(--ferstlogo-btn-color);
 
 }
 /* Site nav */
 .site-nav .link{
-    color:#2E2F42;
+    color:var(--logo-nav-footer-color);
 }
 .site-nav .link:hover, 
 .site-nav .link:focus{
- color: #404BBF;
+ color: var(--hover-focus-color);
 }
 
 /* Auth nav */
 .auth-nav .link{
-    color:#434455;
+    color:var(--main-text-color);
 }
 .auth-nav .link:hover, 
 .auth-nav .link:focus
 {
-    color: #404BBF;
+    color: var(--hover-focus-color);
 }
 /* hero */
 .hero-title, .hero-btn{
-    color:#FFFFFF;
+    color:var(--body-color);
 }
 .hero-btn{
-    background-color: #4D5AE5;
+    background-color: var(--ferstlogo-btn-color);
 }
 .hero-btn:hover {
-    background-color: #404BBF;
+    background-color: var(--hover-focus-color);
 }
 
 /* section */
 .section-title, .subtitle{
-    color:#2E2F42;
+    color:var(--logo-nav-footer-color);
 }
 .team-section {
-    background-color: #F4F4FD;
+    background-color: var(--fonbtn-fonsect-logofooter-color);
 }
 .section-btn{
-    background-color: #F4F4FD;
-    color:#4D5AE5;
+    background-color: var(--fonbtn-fonsect-logofooter-color);
+    color:var(--ferstlogo-btn-color);
 }
 .section-btn:hover, 
 .section-btn:focus{
-    background-color: #404BBF;
-        color: #FFFFFF;
+    background-color: var(--hover-focus-color);
+        color: var(--body-color);
 }
 
 
 /* footer */
 .page-footer{
-    background-color: #2E2F42;
+    background-color: var(--logo-nav-footer-color);;
 }
 .logo-footer{
-    color:#F4F4FD;
+    color:var(--fonbtn-fonsect-logofooter-color);
 }
 .text-footer{
-    color:#E7E9FC;
+    color:var(--textfooter-color);
 }
 
